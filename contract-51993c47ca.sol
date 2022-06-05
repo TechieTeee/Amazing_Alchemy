@@ -11,7 +11,7 @@ contract AmazingAlchemy is ERC721, ERC721Enumerable, ERC721URIStorage, Ownable {
     using Counters for Counters.Counter;
 
     Counters.Counter private _tokenIdCounter;
-    uint256 MAX_SUPPLY = 100000;
+    uint256 MAX_SUPPLY = 50000;
 
     constructor() ERC721("AmazingAlchemy", "AA") {}
 
